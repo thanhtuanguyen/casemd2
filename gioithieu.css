@@ -1,0 +1,31 @@
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    justify-self: end;
+    
+   
+    
+}
+.container-fluid{
+    background: rgb(211, 153, 162);
+}
+.nav-item{
+  
+   
+    text-align: center;
+    margin: 5px;
+    margin-top: 2px;
+    padding-top: 8px;
+    
+}
+.noidung{
+    background: white;
+}
+.noi_dung{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+.anh img{
+    position: absolute;
+    left: 400px;
+}

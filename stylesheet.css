@@ -1,0 +1,223 @@
+
+
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    justify-self: end;
+    
+   
+    
+}
+.container-fluid{
+    background: rgb(211, 153, 162);
+}
+.nav-item{
+  
+   
+    text-align: center;
+    margin: 5px;
+    margin-top: 2px;
+    padding-top: 8px;
+    
+}
+.carousel-item img{
+    
+    height: 500px;
+    width: 1550px;
+    padding-right: 20px;
+    padding-left: 30px;
+    
+    
+}
+
+
+.title{
+    
+    height: 40px;
+    background: rgb(211, 153, 162);
+    text-align: center;
+    line-height: 40px;
+    margin-left: 175px;
+    margin-right: 175px;
+    font-weight: bold;
+    
+
+}
+.item{
+    border-radius: 15px;
+    background: rgb(235, 169, 169);
+}
+.item img{
+    width: 350px;
+    height: 300px;
+   padding: 10px;
+   
+}
+.two{
+    padding-left: 12px;
+    width: 102%;
+    padding-right: 3px;
+    
+}
+.two img{
+    width: 100%;
+    padding: 10px;
+    padding-right: 8px;
+    
+    
+   
+}
+.three{
+    width: 100%;
+    padding-left: 20px;
+}
+.title2{
+    width: 100%;
+    height: 40px;
+    background:rgb(211, 153, 162) ;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+   
+}
+.album2{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.album_item{
+    
+    text-align: center;
+    color: rgb(219, 160, 89);
+    font-size: 18px;
+
+}
+
+
+.album_item img{
+    width: 99%;
+    height: 300px;
+    margin: 5px;
+    
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    transform: scale(1);
+    transition: all 0.5s;
+    
+}
+.album_item img:hover{
+    transform: scale(1.1);
+}
+.card img{
+    width: 100%;
+    height: 270px;
+}
+.card-body{
+    background: rgb(210, 183, 188);
+}
+
+
+.footer{
+    background: pink;
+    width: 100%;
+    
+}
+.card2 img{
+    width: 1480px;
+    height: 250px;
+    position: absolute;
+    left: 0px;
+    
+    
+}
+.card-img{
+    position: absolute;
+    color: black;
+    left: 60px;
+    line-height: 50px;
+    padding-top: 50px;
+}
+.card-text2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: rgb(45, 45, 113);
+}
+@media only screen and (max-width:1000px){
+    .carousel-item img{
+
+        height: 80%;
+        width: 80px;
+    }
+    .item{
+        border-radius: 15px;
+        background: white;
+    }
+    .item img{
+        width: 180px;
+        height: 150px;
+        
+        
+        
+        padding-left: 0px;
+        margin: 0px;
+       
+        
+    }
+    .card2 img{
+        width: 900px;
+        height: 200px;
+    }
+    .album_item img{
+        width: 70%;
+        height: 180px;
+        margin: 2px;
+    }
+    .card img{
+        width: 70%;
+        height: 140px;
+    }
+    .card-text2{
+        font-size: 14px;
+}
+@media only screen and (max-width:700px) {
+    .carousel-item img{
+
+        height: 400px;
+        width: 500px;
+    }
+    .item{
+        border-radius: 15px;
+        background: white;
+    }
+    .item img{
+        width: 120px;
+        height: 90px;
+        
+        
+        
+        padding-left: 0px;
+        margin: 0px;
+       
+        
+    }
+    .card2 img{
+        width: 600px;
+        height: 140px;
+    }
+    .album_item img{
+        width: 50%;
+        height: 130px;
+        margin: 2px;
+    }
+    .card img{
+        width: 50%;
+        height: 100px;
+    }
+    .card-text2{
+        font-size: 14px;
+    }
+}
+        
+
+
